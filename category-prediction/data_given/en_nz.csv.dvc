@@ -1,0 +1,5 @@
+outs:
+- md5: 92c325c4df8d13f95e33900ba44b59f4
+  size: 1073
+  hash: md5
+  path: en_nz.csv

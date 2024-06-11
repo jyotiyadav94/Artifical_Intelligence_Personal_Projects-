@@ -1,0 +1,5 @@
+outs:
+- md5: 6b0f7bc78771cc9f02e00eb1959a4872
+  size: 19126
+  hash: md5
+  path: en_za.csv

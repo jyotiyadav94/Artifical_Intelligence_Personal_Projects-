@@ -1,0 +1,5 @@
+outs:
+- md5: 4a45c0a7671a40c143de2b90d99acb4e
+  size: 504415
+  hash: md5
+  path: pt_br.csv

@@ -1,0 +1,5 @@
+outs:
+- md5: 7b9a7c0c71c6f4f22c502fd0c4b7f7b7
+  size: 150998
+  hash: md5
+  path: es_mx.csv
