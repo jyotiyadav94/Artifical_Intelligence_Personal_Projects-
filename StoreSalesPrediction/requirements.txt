@@ -1,0 +1,7 @@
+pyodbc
+python-dotenv
+pymongo
+tabulate
+pandas-profiling
+sweetviz
+autoviz
