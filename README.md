@@ -67,6 +67,19 @@ We are fine-tuning a Language Model (LLM) for various copywriting tasks, using d
 * It utilises LLM,Agents, reAct Framework , Langchain ,Tools,  ChatGroq
 
 
+```bash
+📦 
+├─ Mistral_Fine_tuning.ipynb
+├─ README.md
+├─ agent.ipynb
+├─ dataset
+│  ├─ MenuDataset.csv
+│  ├─ advertisingPrompt.csv
+│  └─ social_media_prompt.csv
+├─ inference_(1).ipynb
+└─ mergeloadAdopterWithBase.ipynb
+```
+
 
 ## 4. Project 4 - Sales Prediction Project
 
