@@ -4,7 +4,7 @@ Welcome to my GitHub repository containing various personal projects. Below is a
 
 ## Project List
 
-## 1. Project 1
+## 1. Project 1 - Agents
 **Description:** The Agent was exposed to Rest API provides endpoints for interacting with a copywriting agent. It allows users to generate copy for various purposes such as menu items, social media posts, advertising content, and newsletters.
 
 **Technologies Used:** angchain, Agents , LLM ,Chains,FastAPI, Docker, Python
@@ -26,7 +26,7 @@ fastApi/
 ```
 
 
-## 2. Project 2
+## 2. Project 2 - Insurance Claim 
 
 Task Description: Examine the quality of the attached dataset. Use ML (Python) to find insights, hidden patterns, and forecast trends; anything related to financial and risk forecasting, as well as ideal customer profile (ICP).
 **Instructions**: You may invest as much time and effort as you wish. You can complete the task at your discretion, using whichever methods, libraries, and tools you think are most effective.
@@ -61,16 +61,16 @@ InsuranceClaims/
 * It utilizes LLM to predict the insurance Claim
 
 
-## 3. Project 3
+## 3. Project 3 - Fine-Tuning LLM Model for Copywriting Agent
 
-Fine-Tuning LLM Model for Copywriting Agent
 We are fine-tuning a Language Model (LLM) for various copywriting tasks, using different datasets and prompts. The tasks include generating restaurant menu descriptions, social media posts, advertising copy, and newsletter campaigns.
 * It utilises LLM,Agents, reAct Framework , Langchain ,Tools,  ChatGroq
 
-## 4. Project 4
 
-## Sales Prediction Project
-Project Introduction
+
+## 4. Project 4 - Sales Prediction Project
+
+**Project Introduction**
 This project focuses on predicting sales for thousands of product families available at Favorita stores in Ecuador. The dataset provided includes various features such as dates, store and product information, promotional status, and sales figures. The aim is to accurately forecast sales based on these attributes.
 
 Main Goal
@@ -81,8 +81,7 @@ The primary objective of this project is to enhance the Kaggle score for store s
 * Deployment of Demo on HuggingFace
 
 
-## 5. Project 5
-Wine Quality Prediction
+## 5. Project 5 - Wine Quality Prediction
 
 Description
 * This project predicts the quality of wine using machine learning techniques. 
