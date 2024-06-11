@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CopyWriter Agent</title>
+    <style>
+        .form-container {
+            display: none;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        label, input, button, select {
+            margin-bottom: 10px;
+            font-size: 18px; /* Set the font size */
+            padding: 5px; /* Set the padding */
+            width: 40%; /* Make all elements take up full width */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+        select {
+            -webkit-appearance: none; /* Remove default arrow in Safari */
+            -moz-appearance: none; /* Remove default arrow in Firefox */
+            appearance: none; /* Remove default arrow in other browsers */
+            background-image: url('data:image/svg+xml;utf8,<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 4"><path d="M4 4L0 0h8z"/></svg>'); /* Add custom arrow icon */
+            background-repeat: no-repeat; /* Prevent arrow icon from repeating */
+            background-position: right 8px center; /* Position arrow icon */
+            background-size: 8px 4px; /* Set size of arrow icon */
+            border: 1px solid #ccc; /* Add border to select element */
+            border-radius: 4px; /* Add border radius to select element */
+        }
+        button {
+            cursor: pointer; /* Change cursor to pointer on button */
+            background-color: #007bff; /* Set background color of button */
+            color: #fff; /* Set text color of button */
+            border: none; /* Remove border from button */
+            border-radius: 4px; /* Add border radius to button */
+            padding: 10px; /* Set padding of button */
+            transition: background-color 0.3s; /* Add transition effect */
+        }
+        button:hover {
+            background-color: #0056b3; /* Change background color on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>CopyWriter Agent</h1>
+    <label for="option-select">Select an option:</label><br>
+    <select id="option-select">
+        <option value="">-- Select an option --</option>
+        <option value="menu">Menu</option>
+        <option value="social">Social Media</option>
+        <option value="advertising">Advertising</option>
+        <option value="newsletter">Newsletter</option>
+    </select>
+
+    <div id="menu-form" class="form-container">
+        <h2>Menu CopyWriter</h2>
+        <form id="menu-form-submit" action="/menu" method="post">
+            <label for="menu-goal">Goal:</label>
+            <input type="text" id="menu-goal" name="goal" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="social-form" class="form-container">
+        <h2>Social Media CopyWriter</h2>
+        <form id="social-form-submit" action="/socialMedia" method="post" enctype="multipart/form-data">
+            <label for="social-goal">Goal:</label>
+            <input type="text" id="social-goal" name="goal" required>
+            <br>
+            <label for="social-image">Image:</label>
+            <input type="file" id="social-image" name="image" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="advertising-form" class="form-container">
+        <h2>Advertising CopyWriter</h2>
+        <form id="advertising-form-submit" action="/advertising" method="post">
+            <label for="advertising-goal">Goal:</label>
+            <input type="text" id="advertising-goal" name="goal" required>
+            <br>
+            <label for="advertising-interest">Interest:</label>
+            <input type="text" id="advertising-interest" name="interest" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="newsletter-form" class="form-container">
+        <h2>Newsletter CopyWriter</h2>
+        <form id="newsletter-form-submit" action="/newsletter" method="post">
+            <label for="newsletter-goal">Goal:</label>
+            <input type="text" id="newsletter-goal" name="goal" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        const optionSelect = document.getElementById('option-select');
+        const formContainers = document.querySelectorAll('.form-container');
+
+        optionSelect.addEventListener('change', function() {
+            const selectedOption = this.value;
+
+            // Hide all form containers
+            formContainers.forEach(container => {
+                container.style.display = 'none';
+            });
+
+            // Show the selected form container
+            const selectedFormContainer = document.getElementById(`${selectedOption}-form`);
+            if (selectedFormContainer) {
+                selectedFormContainer.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
