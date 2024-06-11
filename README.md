@@ -124,3 +124,130 @@ Machine_Learning.ipynb
 Description
 * This project predicts the quality of wine using machine learning techniques. 
 * It utilizes MLFLOW, DVC, CI/CD, frameworks, Docker, and docker-compose.yaml for seamless development and deployment,MLOPS.
+
+
+```bash
+📦 
+.dvc
+│  ├─ .gitignore
+│  └─ config
+├─ .dvcignore
+├─ .github
+│  └─ workflows
+│     └─ ci-cd.yaml
+.gitignore
+Dockerfile
+README.md
+├─ __pycache__
+app.cpython-37.pyc
+app.py
+artifacts
+│  └─ 1
+│     ├─ 303917fcbbe1456d9862568bb2593f03
+│     │  └─ artifacts
+│     │     └─ model
+│     │        ├─ MLmodel
+│     │        ├─ conda.yaml
+│     │        ├─ model.pkl
+│     │        ├─ python_env.yaml
+│     │        └─ requirements.txt
+│     ├─ 40b53c2b198c45838f9a270489f7c046
+│     │  └─ artifacts
+│     │     └─ model
+│     │        ├─ MLmodel
+│     │        ├─ conda.yaml
+│     │        ├─ model.pkl
+│     │        ├─ python_env.yaml
+│     │        └─ requirements.txt
+│     ├─ a10af37f718647e8ac22a5eed6178bf7
+│     │  └─ artifacts
+│     │     └─ model
+│     │        ├─ MLmodel
+│     │        ├─ conda.yaml
+│     │        ├─ model.pkl
+│     │        ├─ python_env.yaml
+│     │        └─ requirements.txt
+│     ├─ a676bb4a4b004fe28f6a6e01f561e809
+│     │  └─ artifacts
+│     │     └─ model
+│     │        ├─ MLmodel
+│     │        ├─ conda.yaml
+│     │        ├─ model.pkl
+│     │        ├─ python_env.yaml
+│     │        └─ requirements.txt
+│     ├─ a6b36cb974054179b1c95c4c66a761ac
+│     │  └─ artifacts
+│     │     └─ model
+│     │        ├─ MLmodel
+│     │        ├─ conda.yaml
+│     │        ├─ model.pkl
+│     │        ├─ python_env.yaml
+│     │        └─ requirements.txt
+│     └─ dcb28f08c8d9478aaf450e92f886ffeb
+│        └─ artifacts
+│           └─ model
+│              ├─ MLmodel
+│              ├─ conda.yaml
+│              ├─ model.pkl
+│              ├─ python_env.yaml
+│              └─ requirements.txt
+├─ data
+│  ├─ processed
+│  │  └─ .gitignore
+│  └─ raw
+│     └─ .gitignore
+├─ data_given
+│  ├─ .gitignore
+│  └─ winequality.csv.dvc
+├─ docker-compose.yml
+├─ dvc.lock
+├─ dvc.yaml
+├─ mlflow.db
+├─ params.yaml
+├─ prediction_service
+│  ├─ __init__.py
+│  ├─ __pycache__
+│  │  ├─ __init__.cpython-37.pyc
+│  │  └─ prediction.cpython-37.pyc
+│  ├─ model
+│  │  └─ model.joblib
+│  ├─ prediction.py
+│  └─ schema_in.json
+├─ requirements.txt
+├─ setup.py
+├─ src.egg-info
+│  ├─ PKG-INFO
+│  ├─ SOURCES.txt
+│  ├─ dependency_links.txt
+│  └─ top_level.txt
+├─ src
+│  ├─ __init__.py
+│  ├─ __pycache__
+│  │  ├─ __init__.cpython-37.pyc
+│  │  └─ get_data.cpython-37.pyc
+│  ├─ get_data.py
+│  ├─ load_data.py
+│  ├─ log_production_model.py
+│  ├─ split_data.py
+│  └─ train_and_evaluate.py
+├─ tests
+│  ├─ __init__.py
+│  ├─ __pycache__
+│  │  ├─ __init__.cpython-37.pyc
+│  │  ├─ conftest.cpython-37-pytest-7.4.4.pyc
+│  │  └─ test_config.cpython-37-pytest-7.4.4.pyc
+│  ├─ conftest.py
+│  ├─ schema_in.json
+│  └─ test_config.py
+├─ webapp
+│  ├─ static
+│  │  ├─ css
+│  │  │  └─ main.css
+│  │  └─ sctipt
+│  │     └─ index.js
+│  └─ templates
+│     ├─ 404.html
+│     ├─ base.html
+│     └─ index.html
+└─ wine_quality_prediction_app_screenshot.png
+```
