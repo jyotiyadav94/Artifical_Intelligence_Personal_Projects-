@@ -93,6 +93,31 @@ The primary objective of this project is to enhance the Kaggle score for store s
 * Fine-tuning an open-source Large Language Model (LLM) like FLANT-5.
 * Deployment of Demo on HuggingFace
 
+```bash
+📦 
+Images
+│  └─ Screenshot 2024-03-22 at 21.13.38.png
+LLM_fine_tuning
+│  ├─ LLM_fine_tuningipynb.ipynb
+dataset.py
+datasetqatest.csv
+submission.csv
+Machine_Learning.ipynb
+├─ README.md
+├─ Report
+│  ├─ report.html
+│  └─ sweetviz_report.html
+├─ model.pkl
+├─ requirements.txt
+├─ sample_submission.csv
+└─ timeseries Research papers LLM
+   ├─ FLANT-5.pdf
+   ├─ Lag-Llama.pdf
+   ├─ MOMENT.pdf
+   ├─ Time-LLM.pdf
+   └─ TimeGPT-1.pdf…
+```
+
 
 ## 5. Project 5 - Wine Quality Prediction
 
