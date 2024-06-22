@@ -7,7 +7,7 @@ This repository contains an end-to-end project for predicting wine quality using
 Clone the project:
 
 ```bash
- git clone https://github.com/DimitrisReppas/End-to-end-wine_quality_prediction.git
+
 ```
 
 Create and activate an environment: 
@@ -105,8 +105,3 @@ docker-compose up -d
 ```
 
 4) Open your preferred browser and navigate to http://127.0.0.1:5000/ to start using the application.
-
-## Acknowledgement
-
-This repository is inspired and based on https://github.com/c17hawke/simple-dvc-demo and on https://www.youtube.com/playlist?list=PLZoTAELRMXVOk1pRcOCaG5xtXxgMalpIe
-
