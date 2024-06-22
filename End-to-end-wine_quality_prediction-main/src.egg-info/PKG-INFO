@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: it is a package with an end-to-end wine quality prediction service
+Author: DimitrisReppas
+License: MIT
