@@ -7,7 +7,6 @@ This repository contains an end-to-end project for predicting wine quality using
 Clone the project:
 
 ```bash
- git clone https://github.com/DimitrisReppas/End-to-end-wine_quality_prediction.git
 ```
 
 Create and activate an environment: 
